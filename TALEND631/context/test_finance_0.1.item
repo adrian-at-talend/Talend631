@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_2YgAQBkBEeeWK_-3cqwFEA" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_2YgAQRkBEeeWK_-3cqwFEA" comment="" name="test_finance_Database" prompt="test_finance_Database?" promptNeeded="false" type="id_String" value="test_finance"/>
+  <contextParameter xmi:id="_2YgAQhkBEeeWK_-3cqwFEA" comment="" name="test_finance_Server" prompt="test_finance_Server?" promptNeeded="false" type="id_String" value="localhost"/>
+  <contextParameter xmi:id="_2YgAQxkBEeeWK_-3cqwFEA" comment="" name="test_finance_Password" prompt="test_finance_Password?" promptNeeded="false" type="id_Password" value="NZNgK6DuncI="/>
+  <contextParameter xmi:id="_2YgARBkBEeeWK_-3cqwFEA" comment="" name="test_finance_Port" prompt="test_finance_Port?" promptNeeded="false" type="id_String" value="3307"/>
+  <contextParameter xmi:id="_2YgARRkBEeeWK_-3cqwFEA" comment="" name="test_finance_AdditionalParams" prompt="test_finance_AdditionalParams?" promptNeeded="false" type="id_String" value="noDatetimeStringSync=true"/>
+  <contextParameter xmi:id="_2YgARhkBEeeWK_-3cqwFEA" comment="" name="test_finance_Login" prompt="test_finance_Login?" promptNeeded="false" type="id_String" value="root"/>
+</talendfile:ContextType>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_2h7CABkBEeeWK_-3cqwFEA" name="test_finance" id="_xnpgYBkBEeeWK_-3cqwFEA" label="test_finance" dataPackage="_2lc3IBkBEeeWK_-3cqwFEA" ContextMode="true" ContextId="_2X148BkBEeeWK_-3cqwFEA" contextName="Default" DatabaseType="MySQL" DriverClass="org.gjt.mm.mysql.Driver" URL="jdbc:mysql://localhost:3307/test_finance?noDatetimeStringSync=true" dbVersionString="MYSQL_5" Port="context.test_finance_Port" Username="context.test_finance_Login" Password="context.test_finance_Password" ServerName="context.test_finance_Server" DatasourceName="" FileFieldName="" SID="context.test_finance_Database" SqlSynthax="SQL Syntax" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="context.test_finance_AdditionalParams" StandardSQL="true" SQLMode="false" UiSchema="">
+    <taggedValue xmi:id="_2h7CARkBEeeWK_-3cqwFEA" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_2ijUIBkBEeeWK_-3cqwFEA" tag="package filter" value=""/>
+    <taggedValue xmi:id="_2ijUIRkBEeeWK_-3cqwFEA" tag="Status" value=""/>
+    <taggedValue xmi:id="_2ijUIhkBEeeWK_-3cqwFEA" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_2ijUIxkBEeeWK_-3cqwFEA" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_2ijUJBkBEeeWK_-3cqwFEA" tag="Description" value=""/>
+    <taggedValue xmi:id="_2ijUJRkBEeeWK_-3cqwFEA" tag="Author" value=""/>
+    <taggedValue xmi:id="_2ijUJhkBEeeWK_-3cqwFEA" tag="otherParameter"/>
+    <taggedValue xmi:id="_2kAFoBkBEeeWK_-3cqwFEA" tag="DB ProductName" value="MySQL"/>
+    <taggedValue xmi:id="_2kAFoRkBEeeWK_-3cqwFEA" tag="DB ProductVersion" value="5.6.26"/>
+    <taggedValue xmi:id="_2kAFohkBEeeWK_-3cqwFEA" tag="DB IdentifierQuoteString" value="`"/>
+    <parameters xmi:id="_2h7CAhkBEeeWK_-3cqwFEA" key="CONN_PARA_KEY_USERNAME" value="context.test_finance_Login"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_2lc3IBkBEeeWK_-3cqwFEA" name="test_finance" dataManager="_2h7CABkBEeeWK_-3cqwFEA"/>
+</xmi:XMI>
