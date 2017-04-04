@@ -17,7 +17,6 @@
   <orgomg.cwm.resource.relational:Catalog xmi:id="_2lc3IBkBEeeWK_-3cqwFEA" name="test_finance" dataManager="_2h7CABkBEeeWK_-3cqwFEA">
     <ownedElement xsi:type="relational:TdTable" xmi:id="_O7FlQBkCEeeWK_-3cqwFEA" name="fin_customer" id="_O7E-MBkCEeeWK_-3cqwFEA" label="fin_customer" tableType="TABLE">
       <taggedValue xmi:id="_O7FlQRkCEeeWK_-3cqwFEA" tag="Comment" value=""/>
-      <taggedValue xmi:id="_O7FlQhkCEeeWK_-3cqwFEA" tag="Comment" value=""/>
       <feature xsi:type="relational:TdColumn" xmi:id="_O7FlQxkCEeeWK_-3cqwFEA" name="idfin_customer" label="idfin_customer" length="10" sourceType="INT" talendType="id_Integer" key="true" nullable="false">
         <taggedValue xmi:id="_O7FlRBkCEeeWK_-3cqwFEA" tag="Comment" value=""/>
         <initialValue xsi:type="relational:TdExpression" xmi:id="_O7FlRRkCEeeWK_-3cqwFEA" language="COLUMN_DEF"/>
@@ -56,7 +55,6 @@
     </ownedElement>
     <ownedElement xsi:type="relational:TdTable" xmi:id="_O7TnsBkCEeeWK_-3cqwFEA" name="internal_orders" id="_O7TAoBkCEeeWK_-3cqwFEA" label="internal_orders" tableType="TABLE">
       <taggedValue xmi:id="_O7TnsRkCEeeWK_-3cqwFEA" tag="Comment" value=""/>
-      <taggedValue xmi:id="_O7TnshkCEeeWK_-3cqwFEA" tag="Comment" value=""/>
       <feature xsi:type="relational:TdColumn" xmi:id="_O7TnsxkCEeeWK_-3cqwFEA" name="Idinternal_orders" label="Idinternal_orders" length="10" sourceType="INT" talendType="id_Integer" key="true" nullable="false">
         <taggedValue xmi:id="_O7TntBkCEeeWK_-3cqwFEA" tag="Comment" value=""/>
         <initialValue xsi:type="relational:TdExpression" xmi:id="_O7TntRkCEeeWK_-3cqwFEA" language="COLUMN_DEF"/>
@@ -72,17 +70,17 @@
         <initialValue xsi:type="relational:TdExpression" xmi:id="_O7TnvRkCEeeWK_-3cqwFEA" language="COLUMN_DEF"/>
         <sqlDataType xmi:id="_O7TnvhkCEeeWK_-3cqwFEA" name="INT" numericPrecisionRadix="10" javaDataType="4" nullable="columnNullable"/>
       </feature>
-      <feature xsi:type="relational:TdColumn" xmi:id="_O7TnvxkCEeeWK_-3cqwFEA" name="internal_orders_count" label="internal_orders_count" length="10" sourceType="DECIMAL" talendType="id_Float">
+      <feature xsi:type="relational:TdColumn" xmi:id="_O7TnvxkCEeeWK_-3cqwFEA" name="internal_orders_count" label="internal_orders_count" length="-1" sourceType="DECIMAL" talendType="id_Double">
         <taggedValue xmi:id="_O7TnwBkCEeeWK_-3cqwFEA" tag="Comment" value=""/>
         <initialValue xsi:type="relational:TdExpression" xmi:id="_O7TnwRkCEeeWK_-3cqwFEA" language="COLUMN_DEF"/>
         <sqlDataType xmi:id="_O7TnwhkCEeeWK_-3cqwFEA" name="DECIMAL" numericPrecisionRadix="10" javaDataType="3" nullable="columnNullable"/>
       </feature>
-      <feature xsi:type="relational:TdColumn" xmi:id="_O7TnwxkCEeeWK_-3cqwFEA" name="internal_orders_unitcost" label="internal_orders_unitcost" length="10" sourceType="DECIMAL" talendType="id_Float">
+      <feature xsi:type="relational:TdColumn" xmi:id="_O7TnwxkCEeeWK_-3cqwFEA" name="internal_orders_unitcost" label="internal_orders_unitcost" length="-1" sourceType="DECIMAL" talendType="id_Double">
         <taggedValue xmi:id="_O7TnxBkCEeeWK_-3cqwFEA" tag="Comment" value=""/>
         <initialValue xsi:type="relational:TdExpression" xmi:id="_O7TnxRkCEeeWK_-3cqwFEA" language="COLUMN_DEF"/>
         <sqlDataType xmi:id="_O7TnxhkCEeeWK_-3cqwFEA" name="DECIMAL" numericPrecisionRadix="10" javaDataType="3" nullable="columnNullable"/>
       </feature>
-      <feature xsi:type="relational:TdColumn" xmi:id="_O7TnxxkCEeeWK_-3cqwFEA" name="internal_orders_total" label="internal_orders_total" length="10" sourceType="DECIMAL" talendType="id_Float">
+      <feature xsi:type="relational:TdColumn" xmi:id="_O7TnxxkCEeeWK_-3cqwFEA" name="internal_orders_total" label="internal_orders_total" length="-1" sourceType="DECIMAL" talendType="id_Double">
         <taggedValue xmi:id="_O7TnyBkCEeeWK_-3cqwFEA" tag="Comment" value=""/>
         <initialValue xsi:type="relational:TdExpression" xmi:id="_O7TnyRkCEeeWK_-3cqwFEA" language="COLUMN_DEF"/>
         <sqlDataType xmi:id="_O7TnyhkCEeeWK_-3cqwFEA" name="DECIMAL" numericPrecisionRadix="10" javaDataType="3" nullable="columnNullable"/>
