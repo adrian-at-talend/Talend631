@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_wc8AwBkBEeeWK_-3cqwFEA" name="test" id="_rlS8YBkBEeeWK_-3cqwFEA" label="test" dataPackage="_wiyKEBkBEeeWK_-3cqwFEA" ContextMode="true" ContextId="_wLRB8BkBEeeWK_-3cqwFEA" contextName="Default" DatabaseType="MySQL" DriverClass="org.gjt.mm.mysql.Driver" URL="jdbc:mysql://localhost:3307/test?noDatetimeStringSync=true" dbVersionString="MYSQL_5" Port="context.test_Port" Username="context.test_Login" Password="context.test_Password" ServerName="context.test_Server" DatasourceName="" FileFieldName="" SID="context.test_Database" SqlSynthax="SQL Syntax" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="context.test_AdditionalParams" StandardSQL="true" SQLMode="false" UiSchema="">
+    <taggedValue xmi:id="_wc8AwRkBEeeWK_-3cqwFEA" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_wdfaYBkBEeeWK_-3cqwFEA" tag="package filter" value=""/>
+    <taggedValue xmi:id="_wdfaYRkBEeeWK_-3cqwFEA" tag="Status" value=""/>
+    <taggedValue xmi:id="_wdfaYhkBEeeWK_-3cqwFEA" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_wdfaYxkBEeeWK_-3cqwFEA" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_wdfaZBkBEeeWK_-3cqwFEA" tag="Description" value=""/>
+    <taggedValue xmi:id="_wdfaZRkBEeeWK_-3cqwFEA" tag="Author" value=""/>
+    <taggedValue xmi:id="_wdfaZhkBEeeWK_-3cqwFEA" tag="otherParameter"/>
+    <taggedValue xmi:id="_wfatABkBEeeWK_-3cqwFEA" tag="DB ProductName" value="MySQL"/>
+    <taggedValue xmi:id="_wfatARkBEeeWK_-3cqwFEA" tag="DB ProductVersion" value="5.6.26"/>
+    <taggedValue xmi:id="_wfatAhkBEeeWK_-3cqwFEA" tag="DB IdentifierQuoteString" value="`"/>
+    <parameters xmi:id="_wc8AwhkBEeeWK_-3cqwFEA" key="CONN_PARA_KEY_USERNAME" value="context.test_Login"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_wiyKEBkBEeeWK_-3cqwFEA" name="test" dataManager="_wc8AwBkBEeeWK_-3cqwFEA"/>
+</xmi:XMI>
