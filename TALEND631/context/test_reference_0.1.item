@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_8uzbABkBEeeWK_-3cqwFEA" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_8uzbARkBEeeWK_-3cqwFEA" comment="" name="test_reference_Database" prompt="test_reference_Database?" promptNeeded="false" type="id_String" value="test_reference"/>
+  <contextParameter xmi:id="_8uzbAhkBEeeWK_-3cqwFEA" comment="" name="test_reference_Server" prompt="test_reference_Server?" promptNeeded="false" type="id_String" value="localhost"/>
+  <contextParameter xmi:id="_8uzbAxkBEeeWK_-3cqwFEA" comment="" name="test_reference_Password" prompt="test_reference_Password?" promptNeeded="false" type="id_Password" value="NZNgK6DuncI="/>
+  <contextParameter xmi:id="_8uzbBBkBEeeWK_-3cqwFEA" comment="" name="test_reference_Port" prompt="test_reference_Port?" promptNeeded="false" type="id_String" value="3307"/>
+  <contextParameter xmi:id="_8uzbBRkBEeeWK_-3cqwFEA" comment="" name="test_reference_AdditionalParams" prompt="test_reference_AdditionalParams?" promptNeeded="false" type="id_String" value="noDatetimeStringSync=true"/>
+  <contextParameter xmi:id="_8uzbBhkBEeeWK_-3cqwFEA" comment="" name="test_reference_Login" prompt="test_reference_Login?" promptNeeded="false" type="id_String" value="root"/>
+</talendfile:ContextType>

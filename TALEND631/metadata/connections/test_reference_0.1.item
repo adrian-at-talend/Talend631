@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_86twEBkBEeeWK_-3cqwFEA" name="test_reference" id="_3ofogBkBEeeWK_-3cqwFEA" label="test_reference" dataPackage="_8_YNoBkBEeeWK_-3cqwFEA" ContextMode="true" ContextId="_8uMXABkBEeeWK_-3cqwFEA" contextName="Default" DatabaseType="MySQL" DriverClass="org.gjt.mm.mysql.Driver" URL="jdbc:mysql://localhost:3307/test_reference?noDatetimeStringSync=true" dbVersionString="MYSQL_5" Port="context.test_reference_Port" Username="context.test_reference_Login" Password="context.test_reference_Password" ServerName="context.test_reference_Server" DatasourceName="" FileFieldName="" SID="context.test_reference_Database" SqlSynthax="SQL Syntax" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="context.test_reference_AdditionalParams" StandardSQL="true" SQLMode="false" UiSchema="">
+    <taggedValue xmi:id="_86twERkBEeeWK_-3cqwFEA" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_87sAcBkBEeeWK_-3cqwFEA" tag="package filter" value=""/>
+    <taggedValue xmi:id="_87sAcRkBEeeWK_-3cqwFEA" tag="Status" value=""/>
+    <taggedValue xmi:id="_87sAchkBEeeWK_-3cqwFEA" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_87sAcxkBEeeWK_-3cqwFEA" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_87sAdBkBEeeWK_-3cqwFEA" tag="Description" value=""/>
+    <taggedValue xmi:id="_87sAdRkBEeeWK_-3cqwFEA" tag="Author" value=""/>
+    <taggedValue xmi:id="_87sAdhkBEeeWK_-3cqwFEA" tag="otherParameter"/>
+    <taggedValue xmi:id="_89pIQBkBEeeWK_-3cqwFEA" tag="DB ProductName" value="MySQL"/>
+    <taggedValue xmi:id="_89pIQRkBEeeWK_-3cqwFEA" tag="DB ProductVersion" value="5.6.26"/>
+    <taggedValue xmi:id="_89pIQhkBEeeWK_-3cqwFEA" tag="DB IdentifierQuoteString" value="`"/>
+    <parameters xmi:id="_86twEhkBEeeWK_-3cqwFEA" key="CONN_PARA_KEY_USERNAME" value="context.test_reference_Login"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_8_YNoBkBEeeWK_-3cqwFEA" name="test_reference" dataManager="_86twEBkBEeeWK_-3cqwFEA"/>
+</xmi:XMI>
