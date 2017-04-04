@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
   <TalendMetadata:DatabaseConnection xmi:id="_qqruQBkBEeeWK_-3cqwFEA" name="temptest" id="_k3H0MBkBEeeWK_-3cqwFEA" label="temptest" dataPackage="_qs2RcBkBEeeWK_-3cqwFEA" ContextMode="true" ContextId="_qbrB4BkBEeeWK_-3cqwFEA" contextName="Default" DatabaseType="MySQL" DriverClass="org.gjt.mm.mysql.Driver" URL="jdbc:mysql://localhost:3307/temptest?noDatetimeStringSync=true" dbVersionString="MYSQL_5" Port="context.temptest_Port" Username="context.temptest_Login" Password="context.temptest_Password" ServerName="context.temptest_Server" DatasourceName="" FileFieldName="" SID="context.temptest_Database" SqlSynthax="SQL Syntax" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="context.temptest_AdditionalParams" StandardSQL="true" SQLMode="false" UiSchema="">
     <taggedValue xmi:id="_qqruQRkBEeeWK_-3cqwFEA" tag="Is Conn Need Reload" value="false"/>
     <taggedValue xmi:id="_qq_3UBkBEeeWK_-3cqwFEA" tag="package filter" value=""/>
@@ -14,5 +14,25 @@
     <taggedValue xmi:id="_qsByEhkBEeeWK_-3cqwFEA" tag="DB IdentifierQuoteString" value="`"/>
     <parameters xmi:id="_qqruQhkBEeeWK_-3cqwFEA" key="CONN_PARA_KEY_USERNAME" value="context.temptest_Login"/>
   </TalendMetadata:DatabaseConnection>
-  <orgomg.cwm.resource.relational:Catalog xmi:id="_qs2RcBkBEeeWK_-3cqwFEA" name="temptest" dataManager="_qqruQBkBEeeWK_-3cqwFEA"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_qs2RcBkBEeeWK_-3cqwFEA" name="temptest" dataManager="_qqruQBkBEeeWK_-3cqwFEA">
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_JhXHgBkCEeeWK_-3cqwFEA" name="new_table" id="_JhWgcBkCEeeWK_-3cqwFEA" label="new_table" tableType="TABLE">
+      <taggedValue xmi:id="_JhXHgRkCEeeWK_-3cqwFEA" tag="Comment" value=""/>
+      <taggedValue xmi:id="_JhXHghkCEeeWK_-3cqwFEA" tag="Comment" value=""/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_JhXHgxkCEeeWK_-3cqwFEA" name="firstcol" label="firstcol" length="10" sourceType="INT" talendType="id_Integer" key="true" nullable="false">
+        <taggedValue xmi:id="_JhXHhBkCEeeWK_-3cqwFEA" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_JhXHhRkCEeeWK_-3cqwFEA" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_JhXHhhkCEeeWK_-3cqwFEA" name="INT" numericPrecisionRadix="10" javaDataType="4"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_JhXHhxkCEeeWK_-3cqwFEA" name="secondcol" label="secondcol" length="45" sourceType="VARCHAR" talendType="id_String">
+        <taggedValue xmi:id="_JhXHiBkCEeeWK_-3cqwFEA" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_JhXHiRkCEeeWK_-3cqwFEA" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_JhXHihkCEeeWK_-3cqwFEA" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_JhXHixkCEeeWK_-3cqwFEA" name="thirdcol" label="thirdcol" length="45" sourceType="VARCHAR" talendType="id_String">
+        <taggedValue xmi:id="_JhXHjBkCEeeWK_-3cqwFEA" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_JhXHjRkCEeeWK_-3cqwFEA" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_JhXHjhkCEeeWK_-3cqwFEA" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
+      </feature>
+    </ownedElement>
+  </orgomg.cwm.resource.relational:Catalog>
 </xmi:XMI>
